@@ -1,6 +1,6 @@
 # MyLatinLife Data — MCP server
 
-Verified residency, citizenship, tax and banking data for Latin America and Latin Europe, as a remote [MCP](https://modelcontextprotocol.io) server and a plain JSON API.
+Verified residency, citizenship, tax and banking data for Latin America and Latin Europe, as a remote [MCP](https://modelcontextprotocol.io) server and a plain JSON API. Connected to it, an AI assistant answers from current data with source links instead of from its training data.
 
 Published by [MyLatinLife](https://mylatinlife.com). Listed in the official MCP Registry as `com.mylatinlife/data`.
 
@@ -72,14 +72,16 @@ Example questions an agent can answer with it:
 
 ## Access
 
-Free without a key: complete results from every tool except `get_dataset`, up to 60 requests a minute, with attribution. A commercial key adds full datasets (`get_dataset`), the commercial licence for building the data into your own product, and its own allowance; see the terms page for the plan and fair-use limits.
+Free without a key: complete results from every tool except `get_dataset`, up to 60 requests a minute, including in commercial products, with credit. A commercial key adds full datasets (`get_dataset`) and its own allowance that keeps working when free traffic is busy; see the terms page for the plan and fair-use limits.
+
+Step-by-step setup for Claude and ChatGPT: https://mylatinlife.com/api/
 
 ## The data
 
 Every row carries a `last_verified` date and its sources or methodology. Answers include attribution and a disclaimer: this is general information, not legal or tax advice. Rules change, so check the cited sources or speak to [MyLatinLife](https://mylatinlife.com) about your situation.
 
-Problems with the server or the data: open an issue here.
+## Licence and credit
 
-## Licence
+Free to use, including in commercial products, with credit: show "Data: MyLatinLife" with a link to mylatinlife.com (or the page linked in the result) wherever results appear. No bulk resale or republishing as a competing dataset. Full terms: https://mylatinlife.com/api/v1/terms
 
-Free to use with attribution and a link to mylatinlife.com. No bulk resale or republishing as a competing dataset. Full terms: https://mylatinlife.com/api/v1/terms
+Corrections and dataset suggestions: open an issue here or email mylatinlife@gmail.com.
