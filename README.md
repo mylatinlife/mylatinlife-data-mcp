@@ -42,9 +42,11 @@ All tools are read-only.
 | Tool | What it answers |
 |---|---|
 | `list_countries` | Countries and trade blocs covered, with region, a one-line headline and the topics each has |
-| `find_visas` | Digital nomad, retirement and investor visas across countries, cheapest entry first, filtered by the income or investment a person can show |
+| `find_visas` | Digital nomad, retirement and investor visas across countries, cheapest entry first. Filter by budget, region, years to citizenship, stay requirement and passive investment |
 | `get_country_profile` | Everything on one country: visas, years to permanent residency and citizenship (with legal citations), physical presence rules, foreign-income tax, banking, property tax, cost of living, safety, healthcare, passport power and tax blacklist status |
 | `compare_countries` | Side-by-side rows for several countries on one topic |
+| `compare_programs` | Side-by-side summary of 2 to 8 programs: minimums, years to citizenship, stay requirement, fees, processing time |
+| `get_settlement_blocs` | Regional residency agreements (MERCOSUR, Andean Community, CARICOM): conditions, legal basis and which passports qualify |
 | `get_program` | The full record of one residency, visa or citizenship program, with its country summary |
 | `get_recent_changes` | Dated log of what changed in the data: visa minimums, fees, years to citizenship, blacklist listings, new coverage |
 | `check_tax_blacklists` | Which tax and AML blacklists or greylists (EU, OECD, FATF, national lists) a jurisdiction is on |
@@ -64,6 +66,8 @@ Example questions an agent can answer with it:
 - "How many years from residency to citizenship in Paraguay, and what's the legal basis?"
 - "Compare the tax systems of Panama, Uruguay and Costa Rica for foreign income."
 - "Is Panama on the EU tax blacklist?"
+- "Which residency programs need only occasional visits and lead to citizenship within 5 years?"
+- "As a Colombian citizen, which countries can I live in under a regional agreement?"
 - "What changed in Paraguay's residency rules recently?"
 
 ## Access
