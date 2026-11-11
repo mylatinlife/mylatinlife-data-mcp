@@ -52,6 +52,8 @@ All tools are read-only.
 | `check_tax_blacklists` | Which tax and AML blacklists or greylists (EU, OECD, FATF, national lists) a jurisdiction is on |
 | `about_data` | Every topic with row counts and verification dates, coverage, terms and how to cite |
 | `get_latest_articles` | The newest MyLatinLife articles and guides, optionally matching a search |
+| `find_mll_service` | Which MyLatinLife service handles an application for you, by country or keyword, and how to start |
+| `find_videos` | MyLatinLife YouTube videos by country or topic, newest first |
 | `get_dataset` | Every row of one topic (commercial key) |
 
 The JSON API exposes the same tools as GET endpoints, for example:
