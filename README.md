@@ -48,8 +48,8 @@ All tools are read-only.
 | `get_program` | The full record of one residency, visa or citizenship program, with its country summary |
 | `get_recent_changes` | Dated log of what changed in the data: visa minimums, fees, years to citizenship, blacklist listings, new coverage |
 | `check_tax_blacklists` | Which tax and AML blacklists or greylists (EU, OECD, FATF, national lists) a jurisdiction is on |
-| `about_data` | Every topic with row counts and verification dates, coverage, terms and how to cite (always free) |
-| `get_latest_articles` | The newest MyLatinLife articles and guides, optionally matching a search (always free) |
+| `about_data` | Every topic with row counts and verification dates, coverage, terms and how to cite |
+| `get_latest_articles` | The newest MyLatinLife articles and guides, optionally matching a search |
 | `get_dataset` | Every row of one topic (commercial key) |
 
 The JSON API exposes the same tools as GET endpoints, for example:
@@ -68,7 +68,7 @@ Example questions an agent can answer with it:
 
 ## Access
 
-Without a key, each caller gets a one-item preview a day; `about_data` and `get_latest_articles` are always free. A commercial key gives complete results, full datasets and the commercial licence; see the terms page for the plan and fair-use limits.
+Free without a key: complete results from every tool except `get_dataset`, up to 60 requests a minute, with attribution. A commercial key adds full datasets (`get_dataset`), the commercial licence for building the data into your own product, and its own allowance; see the terms page for the plan and fair-use limits.
 
 ## The data
 
