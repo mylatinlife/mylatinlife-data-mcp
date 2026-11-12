@@ -74,7 +74,7 @@ Example questions an agent can answer with it:
 
 ## Access
 
-Free without a key: complete results from every tool except `get_dataset`, up to 60 requests a minute, including in commercial products, with credit. A commercial key adds full datasets (`get_dataset`) and its own allowance that keeps working when free traffic is busy; see the terms page for the plan and fair-use limits.
+Free without a key: complete results from every tool except `get_dataset`, up to 60 requests a minute and 500 tool calls a day per address, including in commercial products, with credit. A commercial key adds full datasets (`get_dataset`) and its own allowance that keeps working when free traffic is busy; see the terms page for the plan and fair-use limits.
 
 Step-by-step setup for Claude and ChatGPT: https://mylatinlife.com/api/
 
